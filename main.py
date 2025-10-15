@@ -51,10 +51,7 @@ async def edit_todo_data(data: DataModel):
         "description": "change file data.json",
         "files": {
             "data.json": {
-                "content": json.dumps({
-                    "todoTasks": data.data['todoTasks'],
-                    "finishedTasks": data.data['finishedTasks']
-                })
+                "content": json.dumps(data.data)
             }
         }
     }
