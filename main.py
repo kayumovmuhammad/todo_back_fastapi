@@ -1,65 +1,90 @@
 from fastapi import FastAPI
 import json
+from functions.get_board_id import get_board_id
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Any
-import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],        # Разрешить все домены
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],        # Разрешить все HTTP-методы (GET, POST, PUT, DELETE, ...)
-    allow_headers=["*"],        # Разрешить любые заголовки
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get('/')
 async def home():
     return {
-        "message": "Hello World"
+        "message": "success connection"
     }
 
-@app.get('/todo')
+@app.get('/board/{id}')
+async def get_todo_data(id: int):
+    with open("data.json", "r") as file:
+        data_json = json.loads(file.read())
+
+    return get_board_id(id, data_json["boards"])
+
+@app.get('/boards')
 async def get_todo_data():
     with open("data.json", "r") as file:
         data_json = json.loads(file.read())
 
-    return data_json
+    boards = []
+
+    for board in data_json["boards"]:
+        boards.append({
+            "title": board["title"],
+            "id": board["id"],
+            "image_url": board["image_url"]
+        })
+
+    return boards
 
 class DataModel(BaseModel):
     data: Any
+    id: int
 
-@app.patch('/todo')
+@app.patch('/board')
 async def edit_todo_data(data: DataModel):
-    url = os.getenv('GITHUB_GISTS_URL')
-    token = os.getenv('GITHUB_KEY')
-
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "Authorization": f"Bearer {token}",
-        "X-GitHub-Api-Version": "2022-11-28",
-        "Content-Type": "application/json",
-    }
-
-    body = {
-        "description": "change file data.json",
-        "files": {
-            "data.json": {
-                "content": json.dumps(data.data)
-            }
-        }
-    }
-
-    response = requests.patch(url, headers=headers, data=json.dumps(body))
+    with open("data.json", "r") as file:
+        data_json = json.loads(file.read())
+        for index, board in enumerate(data_json["boards"]):
+            if int(board["id"]) == data.id:
+                data_json["boards"][index]["lists"] = data.data
+                break
 
     with open("data.json", "w", encoding='utf-8') as file:
-        file.write(json.dumps(data.data, ensure_ascii=False))
+        file.write(json.dumps(data_json, ensure_ascii=False))
+
+    return {"message": "OK"}
 
 
-    return {"message": response.status_code}
+
+class BoardModel(BaseModel):
+    title: str
+    image_url: str
+
+
+@app.post("/board")
+async def add_board(board: BoardModel):
+    with open("data.json", "r") as file:
+        data_json = json.loads(file.read())
+
+    data_json["boards"].append(
+        {
+            "title": board.title,
+            "id": data_json["boardCount"],
+            "image_url": board.image_url,
+            "lists": []
+        }
+    )
+
+    data_json["boardCount"] += 1
+
+    with open("data.json", "w", encoding='utf-8') as file:
+        file.write(json.dumps(data_json, ensure_ascii=False))
+
