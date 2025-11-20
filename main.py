@@ -100,7 +100,7 @@ async def delete_board(id: int):
     with open("data.json", "r") as file:
         data_json = json.loads(file.read())
 
-    data_json.remove(get_board_id(id, data_json))
+    data_json["boards"].remove(get_board_id(id, data_json))
 
     with open("data.json", "w", encoding="utf-8") as file:
         file.write(json.dumps(data_json, ensure_ascii=False))
