@@ -1,1 +1,696 @@
-{"boardCount": 0, "boards": []}
+{
+  "boardCount": 4,
+  "boards": [
+    {
+      "title": "Английский",
+      "id": 0,
+      "image_url": "https://images.unsplash.com/photo-1565022536102-f7645c84354a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZW5nbGlzaHxlbnwwfHwwfHx8MA%3D%3D",
+      "lists": [
+        {
+          "title": "📚 Грамматика",
+          "tasks": [
+            {
+              "title": "Present Simple - теория",
+              "description": "Изучить правила построения предложений в Present Simple, исключения и особенности",
+              "date": "2025-11-22",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Present Simple - теория"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Отлично! Теория усвоена. Переходим к практике"
+                }
+              ]
+            },
+            {
+              "title": "Present Continuous - упражнения",
+              "description": "Выполнить 50 упражнений на Present Continuous из учебника Murphy's English Grammar",
+              "date": "2025-11-25",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Present Continuous - упражнения"
+                }
+              ],
+              "members": [
+                {
+                  "username": "english_teacher"
+                }
+              ]
+            },
+            {
+              "title": "Past Simple - практика",
+              "description": "Переписать 20 предложений в Past Simple, проверить окончания -ed",
+              "date": "2025-11-28",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Past Simple - практика"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🎯 Устная речь",
+          "tasks": [
+            {
+              "title": "Разговорный клуб - Monday Edition",
+              "description": "Участие в еженедельном разговорном клубе. Тема: 'Путешествия и туризм'",
+              "date": "2025-11-24",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Разговорный клуб - Monday Edition"
+                }
+              ],
+              "members": [
+                {
+                  "username": "native_speaker_john"
+                },
+                {
+                  "username": "language_partner_anna"
+                }
+              ]
+            },
+            {
+              "title": "Произношение - звуки TH",
+              "description": "Потренировать произношение звуков [θ] и [ð]. Записать видео с произношением 10 слов",
+              "date": "2025-11-26",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Произношение - звуки TH"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "📖 Чтение и аудирование",
+          "tasks": [
+            {
+              "title": "Прочитать новеллу 'The Old Man and the Sea'",
+              "description": "Прочитать 3 главы, выписать незнакомые слова, составить краткий пересказ",
+              "date": "2025-11-30",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Прочитать новеллу 'The Old Man and the Sea'"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Отличная работа! Пересказ очень хороший"
+                }
+              ],
+              "members": [
+                {
+                  "username": "literature_mentor"
+                }
+              ]
+            },
+            {
+              "title": "Аудирование - подкасты BBC Learning English",
+              "description": "Прослушать 5 эпизодов 6 Minute English, составить конспект основных идей",
+              "date": "2025-11-27",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Аудирование - подкасты BBC Learning English"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Frontend разработка",
+      "id": 1,
+      "image_url": "https://images.unsplash.com/photo-1569748130764-3fed0c102c59?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZyb250ZW5kfGVufDB8fDB8fHww",
+      "lists": [
+        {
+          "title": "⚛️ React проекты",
+          "tasks": [
+            {
+              "title": "Создать компонент Dashboard",
+              "description": "Разработать интерактивный Dashboard с графиками через recharts, фильтрацией данных и темной темой",
+              "date": "2025-11-23",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Создать компонент Dashboard"
+                },
+                {
+                  "username": "lead_developer_alex",
+                  "message": "Код выглядит отлично, merge в develop"
+                }
+              ],
+              "members": [
+                {
+                  "username": "code_reviewer_bob"
+                }
+              ]
+            },
+            {
+              "title": "Реализовать Redux state management",
+              "description": "Настроить Redux с middleware thunk для асинхронных операций. Реализовать actions и reducers для управления пользовательскими данными",
+              "date": "2025-11-25",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Реализовать Redux state management"
+                }
+              ],
+              "members": [
+                {
+                  "username": "senior_dev_maria"
+                }
+              ]
+            },
+            {
+              "title": "Хукировать API endpoints",
+              "description": "Создать custom hooks для работы с API (useAuth, useFetch, useUserData). Обработать loading и error состояния",
+              "date": "2025-11-27",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Хукировать API endpoints"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🎨 Дизайн и стили",
+          "tasks": [
+            {
+              "title": "CSS Grid макет для мобильной версии",
+              "description": "Адаптировать основной макет для мобильных устройств используя CSS Grid и Media Queries. Протестировать на iPhone 12 и Samsung S21",
+              "date": "2025-11-26",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача CSS Grid макет для мобильной версии"
+                }
+              ],
+              "members": [
+                {
+                  "username": "designer_sophia"
+                },
+                {
+                  "username": "qa_tester_john"
+                }
+              ]
+            },
+            {
+              "title": "Реализовать Tailwind CSS систему",
+              "description": "Конфигурировать Tailwind, создать custom colors и components library. Внедрить dark mode",
+              "date": "2025-11-24",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Реализовать Tailwind CSS систему"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Отлично! Теперь все проще и быстрее"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🧪 Тестирование",
+          "tasks": [
+            {
+              "title": "Unit тесты для AuthComponent",
+              "description": "Написать unit тесты с Jest и React Testing Library. Покрытие >= 85%. Протестировать все edge cases",
+              "date": "2025-11-29",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Unit тесты для AuthComponent"
+                }
+              ],
+              "members": [
+                {
+                  "username": "qa_lead_dmitry"
+                }
+              ]
+            },
+            {
+              "title": "E2E тесты через Cypress",
+              "description": "Создать end-to-end тесты для основного user flow: регистрация -> логин -> создание проекта -> публикация",
+              "date": "2025-11-28",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача E2E тесты через Cypress"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Шахматы",
+      "id": 2,
+      "image_url": "https://plus.unsplash.com/premium_photo-1673089624442-14bc846ded76?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8JUQxJTg4JUQwJUIwJUQxJTg1JUQwJUJDJUQwJUIwJUQxJTgyJUQxJThCfGVufDB8fDB8fHww",
+      "lists": [
+        {
+          "title": "♟️ Открытия",
+          "tasks": [
+            {
+              "title": "Изучить дебют Итальянская партия",
+              "description": "Разобрать 20 классических партий с дебютом Итальянская партия. Выучить основные варианты (3...Nf6, 3...Bc5)",
+              "date": "2025-11-25",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Изучить дебют Итальянская партия"
+                }
+              ],
+              "members": [
+                {
+                  "username": "chess_coach_grandmaster"
+                }
+              ]
+            },
+            {
+              "title": "Контрдебюты против 1.e4",
+              "description": "Изучить защиту Французскую, Сицилианскую защиту и Скандинавскую защиту. Выработать свой репертуар",
+              "date": "2025-11-28",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Контрдебюты против 1.e4"
+                }
+              ]
+            },
+            {
+              "title": "Дебют 1.d4 - система построения",
+              "description": "Подробный анализ дебютной системы с ходом d4. Основные идеи и план развития фигур",
+              "date": "2025-11-23",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Дебют 1.d4 - система построения"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Отлично усвоена система. Результаты в партиях улучшились!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🎯 Тактика и комбинации",
+          "tasks": [
+            {
+              "title": "Решить 100 тактических задач",
+              "description": "Ежедневно решать по 20 задач на chess.com. Уровень: Intermediate. Целевое время на задачу: 3-5 минут",
+              "date": "2025-11-30",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Решить 100 тактических задач"
+                }
+              ],
+              "members": [
+                {
+                  "username": "tactics_trainer_ivan"
+                }
+              ]
+            },
+            {
+              "title": "Изучить мотивы: Спёртый мат, Мат Легаля",
+              "description": "Подробный анализ 30 партий с мотивом спёртого мата и мата Легаля. Практические примеры из собственных партий",
+              "date": "2025-11-26",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Изучить мотивы: Спёртый мат, Мат Легаля"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Успешно применил мат Легаля в живой партии!"
+                }
+              ],
+              "members": [
+                {
+                  "username": "tactics_trainer_ivan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "📊 Анализ и эндшпиль",
+          "tasks": [
+            {
+              "title": "Король и пешка vs Король",
+              "description": "Идеально выучить эндшпиль К+П против К. Квадрат пешки, оппозиция, триангуляция",
+              "date": "2025-11-24",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Король и пешка vs Король"
+                }
+              ]
+            },
+            {
+              "title": "Анализ собственных партий",
+              "description": "Подробный анализ 5 проигранных партий. Использовать Stockfish для помощи. Выявить систематические ошибки",
+              "date": "2025-11-27",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Анализ собственных партий"
+                },
+                {
+                  "username": "coach_alexander",
+                  "message": "Отправь анализ, поговорим о результатах"
+                }
+              ],
+              "members": [
+                {
+                  "username": "coach_alexander"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🏆 Онлайн турниры",
+          "tasks": [
+            {
+              "title": "Рейтинговый турнир на Lichess",
+              "description": "Участие в еженедельном турнире. Контроль времени: 10+0. Цель: 1600+ рейтинг",
+              "date": "2025-11-22",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Рейтинговый турнир на Lichess"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Финишировал 3-е место! Рейтинг +25"
+                }
+              ]
+            },
+            {
+              "title": "Участие в Olympiad Chess Arena",
+              "description": "Регистрация в международном турнире с 500+ участников. Лучшие 50 получат призы",
+              "date": "2025-12-05",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Участие в Olympiad Chess Arena"
+                }
+              ],
+              "members": [
+                {
+                  "username": "tournament_admin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Работа",
+      "id": 3,
+      "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHdvcmt8ZW58MHx8MHx8fDA%3D%3D",
+      "lists": [
+        {
+          "title": "📋 Проекты",
+          "tasks": [
+            {
+              "title": "Проект CRM система - Phase 1",
+              "description": "Разработка архитектуры системы управления контактами. Дизайн БД, API endpoints, техническое задание",
+              "date": "2025-11-30",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Проект CRM система - Phase 1"
+                }
+              ],
+              "members": [
+                {
+                  "username": "project_manager_olga"
+                },
+                {
+                  "username": "team_lead_sergey"
+                },
+                {
+                  "username": "architect_mikhail"
+                }
+              ]
+            },
+            {
+              "title": "Миграция с PostgreSQL на MongoDB",
+              "description": "Планирование и исполнение миграции. Создание скриптов, тестирование, документирование, обучение команды",
+              "date": "2025-11-28",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Миграция с PostgreSQL на MongoDB"
+                }
+              ],
+              "members": [
+                {
+                  "username": "dba_expert_ivan"
+                }
+              ]
+            },
+            {
+              "title": "Оптимизация производительности API",
+              "description": "Уменьшить время отклика на 40%. Кэширование, индексирование, оптимизация запросов к БД",
+              "date": "2025-11-25",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Оптимизация производительности API"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Успешно! Время отклика снизилось на 48%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🤝 Кооперация и встречи",
+          "tasks": [
+            {
+              "title": "Встреча с клиентом TechCorp Ltd",
+              "description": "Презентация прототипа новой функции. Обсуждение требований Phase 2. Согласование timeline",
+              "date": "2025-11-23",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Встреча с клиентом TechCorp Ltd"
+                },
+                {
+                  "username": "sales_manager_natasha",
+                  "message": "Отлично прошло! Клиент доволен. Новый контракт подписан"
+                }
+              ],
+              "members": [
+                {
+                  "username": "sales_manager_natasha"
+                },
+                {
+                  "username": "client_manager_nikolai"
+                }
+              ]
+            },
+            {
+              "title": "Code Review сессия - Backend Team",
+              "description": "Еженедельная сессия просмотра кода. Проверка 15 pull request'ов. Обсуждение best practices",
+              "date": "2025-11-24",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Code Review сессия - Backend Team"
+                }
+              ],
+              "members": [
+                {
+                  "username": "lead_developer_alex"
+                },
+                {
+                  "username": "senior_dev_maria"
+                },
+                {
+                  "username": "junior_dev_petr"
+                },
+                {
+                  "username": "junior_dev_elena"
+                }
+              ]
+            },
+            {
+              "title": "Планирование спринта - Sprint 47",
+              "description": "Оценка стори поинтов, распределение задач, установка приоритетов. Планирование на 2 недели",
+              "date": "2025-11-22",
+              "completed": true,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Планирование спринта - Sprint 47"
+                },
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Спринт согласован. Начало в понедельник"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "📚 Обучение и развитие",
+          "tasks": [
+            {
+              "title": "Курс 'Микросервисная архитектура'",
+              "description": "Прохождение онлайн курса на Udemy. 12 модулей, практические проекты. Сертификат",
+              "date": "2025-12-10",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Курс 'Микросервисная архитектура'"
+                }
+              ]
+            },
+            {
+              "title": "Подготовка доклада для конференции",
+              "description": "Подготовка доклада 'Production-ready React: Best Practices'. Слайды, демо код, репетиция",
+              "date": "2025-11-29",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Подготовка доклада для конференции"
+                },
+                {
+                  "username": "hr_manager_anna",
+                  "message": "Отлично, компания покроет все расходы на конференцию"
+                }
+              ],
+              "members": [
+                {
+                  "username": "hr_manager_anna"
+                },
+                {
+                  "username": "senior_dev_maria"
+                }
+              ]
+            },
+            {
+              "title": "Сертификация AWS Solutions Architect",
+              "description": "Подготовка к экзамену AWS. Изучение всех сервисов, практические тесты, score >= 800",
+              "date": "2025-12-15",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Сертификация AWS Solutions Architect"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "🎯 Личные KPI",
+          "tasks": [
+            {
+              "title": "Квартальный performance review",
+              "description": "Подготовка self-assessment. Сбор feedback от коллег. Обсуждение с менеджером. Установка целей на Q1 2026",
+              "date": "2025-11-30",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Квартальный performance review"
+                }
+              ],
+              "members": [
+                {
+                  "username": "direct_manager_viktor"
+                }
+              ]
+            },
+            {
+              "title": "Вклад в open source проекты",
+              "description": "Сделать минимум 3 pull request в популярные репозитории (React, Next.js, Node.js). Минимум 100 commits",
+              "date": "2025-12-31",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Вклад в open source проекты"
+                }
+              ]
+            },
+            {
+              "title": "Менторинг junior разработчика",
+              "description": "Еженедельные сессии с Петром. Помощь в изучении React и Node.js. Код ревью его PR'ов",
+              "date": "2025-12-30",
+              "completed": false,
+              "comments": [
+                {
+                  "username": "Kayumov Muhammad",
+                  "message": "Создана задача Менторинг junior разработчика"
+                }
+              ],
+              "members": [
+                {
+                  "username": "junior_dev_petr"
+                },
+                {
+                  "username": "hr_manager_anna"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
